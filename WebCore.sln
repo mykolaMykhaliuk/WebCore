@@ -17,13 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppReactRedux", "WebAppR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor", "Razor\Razor.csproj", "{F217F872-D763-48B6-AB23-C2F1AEDC52E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppCore", "ConsoleAppCore\ConsoleAppCore.csproj", "{9531D1CB-C0F9-450C-8949-424CCC9A179C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppCore", "ConsoleAppCore\ConsoleAppCore.csproj", "{9531D1CB-C0F9-450C-8949-424CCC9A179C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{562149BE-92FF-4F29-ACB1-121D11F6ABF9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TPL", "TPL", "{3F19DACE-DDBB-43A6-AC3E-6BABE28541AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelExtensionsExtras", "ParallelExtensionsExtras\ParallelExtensionsExtras.csproj", "{C45218F8-09E7-4F57-85BC-5D8D2AC736A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPICore", "WebAPICore\WebAPICore.csproj", "{3711B0B6-DDD8-40FA-A17C-4E01EC0C27D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{FF36380D-BCB8-41DA-8E31-184E35C21BD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,14 @@ Global
 		{C45218F8-09E7-4F57-85BC-5D8D2AC736A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C45218F8-09E7-4F57-85BC-5D8D2AC736A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C45218F8-09E7-4F57-85BC-5D8D2AC736A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3711B0B6-DDD8-40FA-A17C-4E01EC0C27D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3711B0B6-DDD8-40FA-A17C-4E01EC0C27D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3711B0B6-DDD8-40FA-A17C-4E01EC0C27D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3711B0B6-DDD8-40FA-A17C-4E01EC0C27D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF36380D-BCB8-41DA-8E31-184E35C21BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF36380D-BCB8-41DA-8E31-184E35C21BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF36380D-BCB8-41DA-8E31-184E35C21BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF36380D-BCB8-41DA-8E31-184E35C21BD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
